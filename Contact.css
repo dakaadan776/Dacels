@@ -1,0 +1,97 @@
+nav
+{
+    margin: auto;
+    word-spacing: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgb(145, 123, 165);
+    height: 3%;
+}
+.intro
+{
+    text-align: center;
+    border-style:hidden;
+    background-color: rgb(171, 240, 240);
+    width:80%;
+    height: 80%;
+    font-size: 15px;
+    margin: auto;
+}
+.lo
+{
+    border-style: inset;
+    width:5%;
+    margin: auto;
+    background-color: aquamarine;
+}
+html
+{
+    background-image: url(f1.jpg);
+    background-size: cover;
+}
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button
+{
+    background-color: rgb(159, 186, 226);
+     border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input
+{
+    font-family: fantasy;
+}
+input[type=submit]
+{
+    background-color: white;
+    width: 13%;
+    height: 4%;
+    border-radius: 12px;
+    border-style: hidden;
+
+}
+input[type=submit]:hover
+{
+    transition: 450ms;
+    background-color: rgb(0, 155, 160);
+}
+.lo
+{
+    border-style: inset;
+    width:5%;
+    margin:auto;
+    background-color: rgba(215, 196, 219, 0.555);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;   
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;   
+  cursor: pointer;
+}
+a {
+    background-color: rgb(201, 163, 250);
+    border-radius: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    border-style:solid ;
+    border-color: rgb(99, 99, 250);
+    color: black;
+    font-family: monospace;
+    width: 50%;
+    margin: auto;
+    border-top: 2px;
+    
+}
+a :hover {
+    transition: 450ms;
+    background-color: green;
+}

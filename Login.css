@@ -1,0 +1,41 @@
+.log
+{
+    background-color:rgb(192, 219, 140);
+    border-style:double;
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+    background-size: cover;
+}
+body
+{
+    display: grid;
+    place-items: center;
+}
+button
+{
+    width: 100px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(177, 252, 4);
+    width: 20%;
+    height: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+}   
+html
+{
+background-image: url(green.jpeg);
+background-size: cover;
+}
+    input {
+        border-radius: 5px;
+        width: 40%;
+        border:50px;
+        height: 5%; 
+        font-family:cursive;
+        background-color: bisque;
+        border-style: hidden;
+    }
+ 
+    

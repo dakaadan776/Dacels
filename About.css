@@ -1,0 +1,66 @@
+nav
+{
+    margin: auto;
+    word-spacing: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgb(145, 123, 165);
+    height: 3%; 
+}
+.intro
+{
+    text-align: center;
+    border-style:hidden;
+    background-color: rgb(171, 240, 240);
+    width:71%;
+    height:40%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+html
+{
+    background-image: url(hill.jpeg);
+    background-size: cover;
+}
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+.lo
+{
+    border-style: inset;
+    width:5%;
+    margin:auto;
+    background-color: rgba(215, 196, 219, 0.555);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;   
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;   
+  cursor: pointer;
+}  
+a {
+    background-color: rgb(201, 163, 250);
+    border-radius: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    border-style:solid ;
+    border-color: rgb(99, 99, 250);
+    color: black;
+    font-family: monospace;
+    width: 50%;
+    margin: auto;
+    border-top: 2px;
+    
+}
+a :hover {
+    transition: 450ms;
+    background-color: green;
+} 
