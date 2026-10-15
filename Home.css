@@ -7,7 +7,6 @@ nav
     background-color: rgb(145, 123, 165);
     height: 5%;
     width: 600;
-    font-size: 50px;
     border-radius: 1cm;
     border-style: solid;
     border-color: rgb(135, 105, 243);
@@ -69,7 +68,7 @@ h1
 a {
     background-color: rgb(201, 163, 250);
     border-radius: 12px;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
     border-style:solid ;
     border-color: rgb(99, 99, 250);
