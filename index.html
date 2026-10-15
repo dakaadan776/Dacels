@@ -3,9 +3,28 @@
         
         <link rel="stylesheet" href="Login.css">
         <title>Login</title>
+        <script>
+            function checkLogin(event) {
+                event.preventDefault(); // Stop the form from submitting normally
+    
+                // Define your static username and password here
+                const correctUser = "Dak123";
+                const correctPass = "pass";
+    
+                const userInput = document.getElementById("username").value;
+                const passInput = document.getElementById("password").value;
+    
+                if (userInput === correctUser && passInput === correctPass) {
+                    // Redirect to another page upon success
+                    window.location.href = "Homepage.html"; 
+                } else {
+                    document.getElementById("error-msg").textContent = "Invalid username or password!";
+                }
+            }
+        </script>
     </head>
     <body>
-        <form action="Homepage.html" method="POST"> 
+        <form onsubmit="checkLogin(event)">
         <div class="Log">
             <br>
             <br>
@@ -14,19 +33,17 @@
             <br>
             <br>
             <br>
-            <label for="uname"><b>Username</b></label>
-    <input type="text" id="uname" placeholder="Enter Username" required>
+            <label for="username"><b>Username</b></label>
+    <input type="text" id="username" placeholder="Enter Username" required>
     <br>
     <br>
     <label for="psw"><b>Password</b></label>
-    <input type="password" id="Password" placeholder="Enter Password" required>
+    <input type="password" id="password" placeholder="Enter Password" required>
     <br>
     <br>
     <button type="submit">Login</button>
 
         </div>
         </form> 
-    
-
     </body>
 </html>
