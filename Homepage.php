@@ -12,6 +12,7 @@
             
         </nav>
         <br>
+        <form method="POST">
         <br> <a href="Login.html" class="lo">Logout</a>
         <div class="intro">
             <br>
