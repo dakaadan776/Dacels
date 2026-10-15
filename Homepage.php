@@ -5,7 +5,6 @@
     </head>
     <body>
          <nav>
-            
                 <td><a href="Homepage.html">Home</a></td>
                 <td><a href="About.html">About</a></td>
                 <td><a href="Product.html">Products</a></td>
