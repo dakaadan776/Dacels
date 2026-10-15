@@ -5,28 +5,34 @@ nav
     letter-spacing: 2px;
     text-align: center;
     background-color: rgb(145, 123, 165);
-    height: 3%;
+    height: 5%;
+    border-radius: 1cm;
+    border-style: solid;
+    border-color: rgb(135, 105, 243);
+    width: 600;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+
 }
 .intro
 {
     text-align: center;
     border-style:hidden;
-    background-color: rgb(171, 240, 240);
+    background-color: rgb(207, 166, 218);
     width:80%;
     height: 80%;
     font-size: 15px;
     margin: auto;
-}
-.lo
-{
-    border-style: inset;
-    width:5%;
-    margin: auto;
-    background-color: aquamarine;
+    border: 1000;
+    border-radius: 1cm;
+    border-color: rgb(64, 0, 116);  
+    border-style:solid;
 }
 html
 {
-    background-image: url(f1.jpg);
+    background-image: url(rose\ field.jpg)      ;
     background-size: cover;
 }
 h1
@@ -47,7 +53,8 @@ button
 }
 input
 {
-    font-family: fantasy;
+    font-family: cursive;
+    border-radius: 1cm;
 }
 input[type=submit]
 {
@@ -56,18 +63,19 @@ input[type=submit]
     height: 4%;
     border-radius: 12px;
     border-style: hidden;
+    cursor: pointer;
 
 }
 input[type=submit]:hover
 {
     transition: 450ms;
-    background-color: rgb(0, 155, 160);
+    background-color: rgb(160, 0, 147);
 }
 .lo
 {
     border-style: inset;
     width:5%;
-    margin:auto;
+ margin: auto;
     background-color: rgba(215, 196, 219, 0.555);
   border: none;
   color: rgb(0, 0, 0);
@@ -80,7 +88,7 @@ input[type=submit]:hover
 a {
     background-color: rgb(201, 163, 250);
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     border-style:solid ;
     border-color: rgb(99, 99, 250);

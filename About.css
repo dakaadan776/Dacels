@@ -5,18 +5,31 @@ nav
     letter-spacing: 2px;
     text-align: center;
     background-color: rgb(145, 123, 165);
-    height: 3%; 
+    height: 5%; 
+    border-radius: 1cm;
+    border-style: solid;
+    border-color: rgb(135, 105, 243);
+    width: 600;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+
+
 }
 .intro
 {
     text-align: center;
-    border-style:hidden;
     background-color: rgb(171, 240, 240);
     width:71%;
     height:40%;
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
+    border: 1000;
+    border-radius: 1cm;
+    border-color: blue;  
+    border-style:solid;
 }
 
 html
@@ -49,7 +62,7 @@ p
 a {
     background-color: rgb(201, 163, 250);
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     border-style:solid ;
     border-color: rgb(99, 99, 250);
