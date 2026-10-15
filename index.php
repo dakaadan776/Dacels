@@ -5,7 +5,7 @@
         <title>Login</title>
     </head>
     <body>
-        <form action="Homepage.html" method="POST"> 
+        <form action="Homepage.php" method="POST"> 
         <div class="Log">
             <br>
             <br>
