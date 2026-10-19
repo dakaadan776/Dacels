@@ -76,6 +76,7 @@ button
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 1cm;
+  font-size: 36px;
 }
 button:hover {
     transition: 450ms;
@@ -84,7 +85,7 @@ button:hover {
 .lo
 {
     border-style: inset;
-    width:10%;
+    width:20%;
     margin:auto;
     background-color: rgba(215, 196, 219, 0.555);
   border: none;
