@@ -62,11 +62,12 @@ input
 input[type=submit]
 {
     background-color: white;
-    width: 13%;
-    height: 4%;
+    width: 20%;
+    height: 6%;
     border-radius: 12px;
     border-style: hidden;
     cursor: pointer;
+    font-size: 24px;
 
 }
 input[type=submit]:hover
