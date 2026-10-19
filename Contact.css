@@ -5,11 +5,11 @@ nav
     letter-spacing: 2px;
     text-align: center;
     background-color: rgb(145, 123, 165);
-    height: 5%;
+    height: 10%;
+    width: 900;
     border-radius: 1cm;
     border-style: solid;
     border-color: rgb(135, 105, 243);
-    width: 600;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -91,13 +91,13 @@ input[type=submit]:hover
 a {
     background-color: rgb(201, 163, 250);
     border-radius: 12px;
-    font-size: 30px;
+    font-size: 50px;
     text-decoration: none;
     border-style:solid ;
     border-color: rgb(99, 99, 250);
     color: black;
     font-family: monospace;
-    width: 70%;
+    width: 35%;
     margin: auto;
     border-top: 2px;
     
