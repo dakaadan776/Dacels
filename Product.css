@@ -75,6 +75,11 @@ button
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 1cm;
+}
+button:hover {
+    transition: 450ms;
+    background-color: blue;
 }
 .lo
 {
